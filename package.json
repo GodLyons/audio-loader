@@ -1,0 +1,37 @@
+{
+  "name": "audio-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader to transform audio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GodLyons/audio-loader.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Lyons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GodLyons/audio-loader/issues"
+  },
+  "homepage": "https://github.com/GodLyons/audio-loader#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "commitizen": "^4.2.4",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
